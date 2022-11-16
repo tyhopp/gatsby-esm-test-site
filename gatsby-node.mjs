@@ -11,8 +11,8 @@ const syncResponse2 = helloSync2()
 const asyncResponse2 = await helloAsync2()
 // console.info(`CJS imports:`, { syncResponse2, asyncResponse2 })
 
-const config = {
-  plugins: [],
+const onPreBuild = () => {
+  console.log(`I AM IN PRE BUILD`)
 }
 
-export default config
+export { onPreBuild }
