@@ -19,12 +19,12 @@ const asyncResponse2 = await helloAsync2()
 
 const config = {
   plugins: [
-    {
-      resolve: `whatever-i-want`,
-      options: {
-        slugify,
-      },
-    },
+    // {
+    //   resolve: `whatever-i-want`,
+    //   options: {
+    //     slugify,
+    //   },
+    // },
   ],
 }
 
