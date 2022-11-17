@@ -13,10 +13,10 @@ const asyncResponse2 = await helloAsync2()
 // console.info(`CJS imports:`, { syncResponse2, asyncResponse2 })
 
 // Test third-party ESM-only packages
-console.info(slugify(`I ♥ gatsby node`))
+// console.info(slugify(`I ♥ gatsby node`))
 
 const onPreBuild = () => {
-  console.log(`I AM IN PRE BUILD`)
+  // console.log(`I AM IN PRE BUILD`)
 }
 
 export { onPreBuild }
